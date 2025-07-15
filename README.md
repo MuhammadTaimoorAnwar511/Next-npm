@@ -3,6 +3,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 First, run the development server:
+### `npm install`
+### `npm run build`
+### `PORT=3005 pm2 start "npm start" --name "next-npm"`
 
 ```bash
 npm run dev
