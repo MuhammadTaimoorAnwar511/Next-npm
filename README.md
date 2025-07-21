@@ -6,7 +6,8 @@ First, run the development server:
 ### `npm install`
 ### `npm run build`
 ### `PORT=3005 pm2 start "npm start" --name "next-npm"`
-
+### `docker build -t <image name> .`
+### `docker run -d -p <host port>:<container port> --name <container name> <image name>`
 ```bash
 npm run dev
 # or
